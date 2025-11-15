@@ -1,0 +1,49 @@
+Java classifies data types into two main categories:
+Primitive Data Types: These are fundamental, built-in types that store single values directly. 
+There are eight primitive data types:
+
+boolean: Stores true or false values.
+
+byte: Stores 8-bit signed integers (-128 to 127).
+
+short: Stores 16-bit signed integers (-32,768 to 32,767).
+
+int: Stores 32-bit signed integers (approximately -2 billion to 2 billion).
+
+long: Stores 64-bit signed integers (very large numbers).
+
+float: Stores 32-bit floating-point numbers (single-precision decimals). 
+
+Values require an 'f' or 'F' suffix (e.g., 3.14f).
+
+double: Stores 64-bit floating-point numbers (double-precision decimals). This is the default for decimal numbers.
+
+char: Stores a single 16-bit Unicode character, enclosed in single quotes (e.g., 'A').
+
+
+Reference Data Types: These types do not store values directly but instead store references 
+(memory addresses) to objects. They include:
+
+Classes: User-defined types (e.g., String, Scanner, custom classes).
+Interfaces: Blueprints for classes.
+Arrays: Collections of elements of the same data type.
+
+Variables in Java:
+
+Variables are used to hold data during program execution. Each variable has:
+Data Type: Determines the type of data it can store.
+Name: A unique identifier for the variable.
+Value: The actual data stored in the variable.
+
+Types of Variables:
+Java distinguishes several types of variables based on their scope and lifetime:
+
+Local Variables: Declared inside methods, constructors, or blocks. Their scope is limited to that block.
+
+Instance Variables (Non-static fields): Declared inside a class but outside any method. 
+Each object of the class has its own copy.
+
+Static Variables (Class variables): Declared with the static keyword inside a class but outside any method. 
+There is only one copy per class, shared by all objects.
+
+Parameters: Variables passed into a method or constructor.
